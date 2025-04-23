@@ -50,3 +50,17 @@ php artisan make:seed
 php artisan migrate:fresh --seed
 
 ```
+
+
+```php
+
+php artisan storage:link
+
+```
+
+```php
+
+php artisan config:clear
+php artisan route:clear
+
+```

@@ -8,8 +8,8 @@ use Livewire\Component;
 #[Title('Login Page')]
 class LoginPage extends Component
 {
-    public $email;
-    public $password;
+    public $email = 'user@gmail.com';
+    public $password = 'password';
 
     public function save() {
         $this->validate([
